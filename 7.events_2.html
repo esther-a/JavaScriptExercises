@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form>
+
+	Name:<br>
+		<input type="text" name="name" id="name"/><br>
+
+	Age:<br>
+		<input type="text" name="age" id="age" /><br>
+
+	Occupation:<br>
+		<input type="text" name="occupation" id="occupation" /><br>
+
+		<input type="submit" onclick="person()"/>
+</form>
+<script>
+	
+	function person (){
+		person.name = name;
+		person.age = age;
+		person.occupation = occupation;
+
+		return person 
+	}
+
+	console.log(document.getElementById('name').value, document.getElementById("age").value, document.getElementById("occupation"))	
+
+
+</script>
+</body>
+</html>
